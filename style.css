@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin-right: 0px;
+}
+
+.carousel-section .row>*{
+    padding-right: 0px;
+}
+.header-right img{
+    width: 293px;
+    height: 77px;
+}
+
+.main-header{
+    height: 154px;
+    border-bottom: 3px solid #f2f2f2;
+    background-color: #ffffff;
+}
+
+.navbar a{
+    color: #2c2c2c;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #c50330;
+    cursor: pointer;
+}
+
+.call{
+    height: 49px;
+    padding-right:  89px;
+    display: flex;
+    align-items: center;
+}
+
+ .main-header .call-log-one::after{
+    width: 10px;
+    height: 20px;
+    background-color: #c50330;
+}
+
+.header-top{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content:right;
+   
+}
+
+.call-log {
+    padding: 12px 26px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Roboto;
+    float: left;
+}
+
+.call-log a{
+    text-decoration: none;
+    color: #2c2c2c;
+   
+}
+
+.call-log a:hover{
+    color: #c50330;
+    cursor: pointer;
+}
+
+.call-log i{
+    color: #c50330;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.call-log i:hover{
+    cursor: pointer;
+}
+
+.header-left{
+    display:flex;
+    justify-content: end;
+}
+
+.header{
+    padding: 11px 10px 14px 0px;
+}
+
+.navbar-nav a{
+   letter-spacing: 0.3px;
+   margin-left: 32px;
+  
+}
+
+.main-header .call i{
+    margin-right: 8px;
+}
+.navbar-nav{
+    padding-right: 14px;
+ }
+
+
+
+.carousel-caption p{
+    font-size: 58px;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.carousel-caption{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-control-prev-icon{
+    color: #ffffff;
+    border: 2px solid #c50330;
+    border-radius: 50%;
+    padding: 25px;
+   
+}
+
+
+.carousel-control-next-icon{
+    color: #ffffff;
+    border: 2px solid #c50330;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+
+.btn-call{
+    background-color: #c50330;
+    width: 180px;
+    height: 55px;
+    border: none;
+    padding: 0.8rem 3.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.45px;
+    font-family: Roboto, sans-serif;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.btn-call:hover{
+    background-color: #212121;
+
+}
+
+.btn-call a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-call a:hover{
+    color: #ffffff;
+    background-color: #212121;
+}
+
+.carousel-item img{
+    height: 100vh;
+}
+
+.hridhukrishna-electronics-header{
+    padding: 70px 0px;
+    font-family: Roboto, sans-serif;
+    background-color: #f8f9fa;
+    color: #606060;
+}
+
+.hridhukrishna-electronics-header img{
+    width: 526px;
+    height: 355px;
+}
+
+.content-titile-head{
+    color:#c50330 ;
+    font-size: 40px;
+}
+
+.content-titile-sub{
+    color: #333333;
+    font-size: 24px;
+}
+
+.content-about{
+    font-size: 15px;
+    line-height: 34px;
+    letter-spacing: 0.35px;
+    margin-top: 24px;
+   
+}
+
+.content-para{
+    font-size: 15px;
+    line-height: 34px;
+    text-align: left;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.our-services-section{
+    padding: 70px 0px;
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+
+}
+
+.our-services-section .our-services{
+    color: rgba(0,0,0,0.5);
+    font-size: 2rem;
+    line-height: 28px;
+}
+
+.services{
+    color: #c50330;
+}
+
+.our-services .line {
+    height: 1.5px;
+    width: 25%;
+    background: linear-gradient(45deg,#ddd,#c50330,#dbdbdb);
+    margin: 27px auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.our-services h2{
+    text-align: center;
+}
+
+.washing-left img{
+    width: 50%;
+    height: 345px;
+    margin-top: 69px;
+    margin-left: 40px;
+}
+
+.washing-left{
+    margin-bottom: 2rem;
+}
+
+.washing-right{
+    margin-top: 29px;
+    margin-bottom: 2rem;
+}
+
+.washing-right h4{
+    color: #c50330;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    margin-bottom: 17px;
+}
+
+.washing-right p{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    color: #606060;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.washing-right ul li i{
+    margin-right: 10px;
+    color: #cd234a;
+
+}
+
+.washing-right ul li{
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: #606060;
+    line-height: 28px;
+}
+
+.refrigerator-content h4{
+    color: #c50330;
+    line-height: 33.6px;
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    text-align: start;
+    font-weight: 600;
+    margin-bottom: 17px;
+    margin-top: 2px;
+}
+
+.refrigerator-content p{
+    color: #696969;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    line-height: 30px;
+    text-align: justify;
+    max-width: 700px;
+}
+
+.refrigerator-content ul li{
+    color: #606060;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.refrigerator-content ul li i{
+    color: #cd234a;
+    margin-right: 10px;
+}
+
+.refrigetator-right img{
+    width: 312px;
+    height: 409px;
+}
+
+.refrigetator-right{
+    margin-bottom: 2em;
+    margin-top: 4px;
+}
+
+.footer-top-tags h5{
+    border: 1px solid #d1d1d1;
+    padding: 0.7rem 1.1rem;
+    border-radius: 0px;
+    color: #565656;
+    letter-spacing: 0.25px;
+    display: inline-block;
+    margin-top: 0px;
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    line-height: 15.6px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-top .row{
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+}
+
+.footer{
+    background-color: #393c40;
+    color: #cbcbcb;
+    padding: 50px 0px 20px 0px;
+
+}
+
+.location-name{
+    color:#ffffff;
+    line-height: 28px;
+}
+
+.footer .footer-left .location li i{
+    margin-right: 14px;
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: Font Awesome 5 Fre;
+}
+
+
+
+.footer .footer-left ul li{
+    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+}
+
+.footer .footer-left ul{
+    list-style-type:none;
+}
+
+.footer-left{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.footer-social{
+    gap: 20px;
+}
+
+.footer-social a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #afaeae;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    background-color: #393c40;
+    box-shadow: -5px -5px 9px rgb(68 67 67 / 45%), 
+                 5px 5px 9px rgb(32 31 31 / 30%);
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.footer-social a:hover{
+    background-color: #303030;
+    color: #afaeae;
+}
+
+.footer-bottom p{
+    font-size: 13px;
+    color: #606060;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+}
+
+.footer-bottom p a{
+    text-decoration: none;
+    color:#ffc107;
+    line-height: 28px;
+    font-family: Nunito, sans-serif;
+    margin-left: 3px;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 15px;
+    bottom: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+.whatsapp-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #62d474;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    box-shadow: 0 4px 15px 0 rgb(98 212 115);
+}
+
+.whatsapp-icon i{
+    font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutus-section{
+    background-image: url(images/aboutpage.png);
+    position: relative;
+    z-index: 102;
+    padding: 6rem 0rem;
+}
+
+.aboutus-section .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.aboutus-content{
+    text-align: start;
+   
+    padding-left: 20px;
+}
+
+.aboutus-content h2{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: start;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+
+.aboutus-content ul li{
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    padding: 7px 20px 0px 5px;
+    font-size: 16px;
+}
+
+.aboutus-content ul{
+    line-height: 28px;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    padding-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.home-pullet{
+    list-style-type: none;
+}
+
+.home-pullet::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    background-color:#ffffff;
+    border-radius: 50%;
+}
+
+.aboutus-content ul li a{
+    text-decoration: none;
+    color:  #ffffff;
+}
+
+.aboutus-content ul li a:hover{
+    color: #c50330;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+.our-services-section .our-services .bottom{
+    height: 1.55px;
+    width: 28%;
+    background: linear-gradient(45deg,#ddd,#c50330,#dbdbdb);
+    margin-top: 29px ;
+}
+
+.contact-section{
+    padding: 4rem 0px;
+}
+
+.contact-section h2{
+    color: #838383;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact-icon{
+    width: 55px;
+    height: 55px;
+    background-color: #c50330;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    border-radius: 55%;
+}
+
+.contact-info{
+    color: #c50330;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    font-family: Roboto, sans-serif;
+}
+
+.contact-address{
+    font-size: 16px;
+    font-family: Roboto, sans-serif ;
+    font-weight: 420;
+    letter-spacing: .25px;
+    color: #212121;
+    line-height: 28px;
+}
+
+.phone a{
+    text-decoration: none;
+    color: #212112;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-family: Roboto, sans-serif ;
+}
+
+.phone a:hover{
+    color: #c50330;
+    transition: 0.3s;
+}
+
+.link-about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 2rem;
+}
+
+.link-about a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #212112;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.link-about a:hover{
+    background-color: #c50330;
+    transition: 0.3s;
+}
